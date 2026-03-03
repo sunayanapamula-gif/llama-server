@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sunay\llama.cpp\examples\gguf-hash\gguf-hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sunay\llama.cpp\examples\gguf-hash\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\sunay\llama.cpp\build\examples\gguf-hash\xxhash.dir\$(Configuration)\xxhash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\sunay\llama.cpp\build\examples\gguf-hash\sha1.dir\$(Configuration)\sha1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\sunay\llama.cpp\build\examples\gguf-hash\sha256.dir\$(Configuration)\sha256.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{550C0E34-37C7-3AEB-A811-B8143B9BD2A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1731AFF1-2698-322C-87E9-357D81431887}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

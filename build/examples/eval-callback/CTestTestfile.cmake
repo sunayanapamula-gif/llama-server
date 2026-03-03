@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/sunay/llama.cpp/examples/eval-callback
+# Build directory: C:/Users/sunay/llama.cpp/build/examples/eval-callback
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test-eval-callback-download-model "C:/Program Files/CMake/bin/cmake.exe" "-DDEST=C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "-DNAME=tinyllamas/stories15M-q4_0.gguf" "-DHASH=SHA256=66967fbece6dbe97886593fdbb73589584927e29119ec31f08090732d1861739" "-P" "C:/Users/sunay/llama.cpp/cmake/download-models.cmake")
+  set_tests_properties(test-eval-callback-download-model PROPERTIES  FIXTURES_SETUP "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;17;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test-eval-callback-download-model "C:/Program Files/CMake/bin/cmake.exe" "-DDEST=C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "-DNAME=tinyllamas/stories15M-q4_0.gguf" "-DHASH=SHA256=66967fbece6dbe97886593fdbb73589584927e29119ec31f08090732d1861739" "-P" "C:/Users/sunay/llama.cpp/cmake/download-models.cmake")
+  set_tests_properties(test-eval-callback-download-model PROPERTIES  FIXTURES_SETUP "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;17;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test-eval-callback-download-model "C:/Program Files/CMake/bin/cmake.exe" "-DDEST=C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "-DNAME=tinyllamas/stories15M-q4_0.gguf" "-DHASH=SHA256=66967fbece6dbe97886593fdbb73589584927e29119ec31f08090732d1861739" "-P" "C:/Users/sunay/llama.cpp/cmake/download-models.cmake")
+  set_tests_properties(test-eval-callback-download-model PROPERTIES  FIXTURES_SETUP "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;17;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test-eval-callback-download-model "C:/Program Files/CMake/bin/cmake.exe" "-DDEST=C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "-DNAME=tinyllamas/stories15M-q4_0.gguf" "-DHASH=SHA256=66967fbece6dbe97886593fdbb73589584927e29119ec31f08090732d1861739" "-P" "C:/Users/sunay/llama.cpp/cmake/download-models.cmake")
+  set_tests_properties(test-eval-callback-download-model PROPERTIES  FIXTURES_SETUP "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;17;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+else()
+  add_test(test-eval-callback-download-model NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test-eval-callback "C:/Users/sunay/llama.cpp/build/bin/Debug/llama-eval-callback.exe" "-m" "C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "--prompt" "hello" "--seed" "42" "-ngl" "0")
+  set_tests_properties(test-eval-callback PROPERTIES  FIXTURES_REQUIRED "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;24;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test-eval-callback "C:/Users/sunay/llama.cpp/build/bin/Release/llama-eval-callback.exe" "-m" "C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "--prompt" "hello" "--seed" "42" "-ngl" "0")
+  set_tests_properties(test-eval-callback PROPERTIES  FIXTURES_REQUIRED "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;24;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test-eval-callback "C:/Users/sunay/llama.cpp/build/bin/MinSizeRel/llama-eval-callback.exe" "-m" "C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "--prompt" "hello" "--seed" "42" "-ngl" "0")
+  set_tests_properties(test-eval-callback PROPERTIES  FIXTURES_REQUIRED "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;24;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test-eval-callback "C:/Users/sunay/llama.cpp/build/bin/RelWithDebInfo/llama-eval-callback.exe" "-m" "C:/Users/sunay/llama.cpp/build/tinyllamas/stories15M-q4_0.gguf" "--prompt" "hello" "--seed" "42" "-ngl" "0")
+  set_tests_properties(test-eval-callback PROPERTIES  FIXTURES_REQUIRED "test-eval-callback-download-model" _BACKTRACE_TRIPLES "C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;24;add_test;C:/Users/sunay/llama.cpp/examples/eval-callback/CMakeLists.txt;0;")
+else()
+  add_test(test-eval-callback NOT_AVAILABLE)
+endif()
