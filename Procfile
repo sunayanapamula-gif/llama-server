@@ -1,1 +1,1 @@
-web: ./build/bin/Release/llama-server.exe --port $PORT --model models/Llama-3.2-3B-Instruct-Q4_K_M.gguf --threads 8
+web: ./build/bin/llama-server --port $PORT --model models/Llama-3.2-3B-Instruct-Q4_K_M.gguf --threads 8 --ctx-size 2048
