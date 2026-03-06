@@ -1,8 +1,0 @@
-C:\Users\sunay\llama.cpp\tests\test-peg-parser.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\test-peg-parser.obj
-C:\Users\sunay\llama.cpp\tests\peg-parser\simple-tokenize.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\simple-tokenize.obj
-C:\Users\sunay\llama.cpp\tests\peg-parser\test-basic.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\test-basic.obj
-C:\Users\sunay\llama.cpp\tests\peg-parser\test-gbnf-generation.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\test-gbnf-generation.obj
-C:\Users\sunay\llama.cpp\tests\peg-parser\test-json-parser.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\test-json-parser.obj
-C:\Users\sunay\llama.cpp\tests\peg-parser\test-json-serialization.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\test-json-serialization.obj
-C:\Users\sunay\llama.cpp\tests\peg-parser\test-unicode.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\test-unicode.obj
-C:\Users\sunay\llama.cpp\tests\get-model.cpp;C:\Users\sunay\llama.cpp\build\tests\test-peg-parser.dir\Release\get-model.obj
